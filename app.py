@@ -76,7 +76,7 @@ with c2:
     <div class="app-card">
         <div>
             <div class="app-icon">🏗️</div>
-            <div class="app-title">Central Link</div>
+            <div class="app-title">Closing Project Assumptions</div>
             <div class="app-desc">Investment Summary Q4.<br>CAPEX, OPEX, Revenue y métricas de retorno: IRR, NPV, ROI, Equity Multiple.</div>
         </div>
         <a class="app-btn" href="https://closing-ydh6wy5habve4kbgqchkep.streamlit.app/" target="_blank">Abrir →</a>
