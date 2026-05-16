@@ -21,13 +21,14 @@ section[data-testid="stSidebar"] { display: none; }
     box-shadow: 0 4px 16px rgba(0,0,0,0.10);
     text-align: center;
     transition: transform 0.2s;
-    height: 320px;
+    height: 340px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
 }
+.app-card > div { flex: 1; display: flex; flex-direction: column; justify-content: flex-start; }
 .app-card:hover { transform: translateY(-4px); }
 .app-icon   { font-size: 48px; margin-bottom: 8px; }
 .app-title  { font-size: 20px; font-weight: 900; color: #0052FF; text-transform: uppercase; letter-spacing: 1px; margin: 8px 0; }
