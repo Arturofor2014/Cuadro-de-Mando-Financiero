@@ -3,16 +3,20 @@ import streamlit as st
 st.set_page_config(page_title="Cuadro de Mando Financiero", layout="wide")
 
 st.markdown("""
+<meta name="viewport" content="width=1200">
 <style>
+html, body { min-width: 1200px; }
 .main .block-container {
     min-width: 1100px;
     max-width: 1400px;
     padding-top: 2rem;
     box-sizing: border-box;
+    overflow-x: auto;
 }
 section[data-testid="stSidebar"] { display: none; }
-@media (max-width: 768px) {
-    .main .block-container { min-width: 1100px; overflow-x: auto; }
+@media (max-width: 1200px) {
+    html, body { min-width: 1200px; overflow-x: auto; }
+    .main .block-container { min-width: 1100px; }
 }
 .app-card {
     background: #ffffff;
