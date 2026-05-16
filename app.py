@@ -32,7 +32,8 @@ section[data-testid="stSidebar"] { display: none; }
     align-items: center;
     box-sizing: border-box;
 }
-.app-card > div { flex: 1; display: flex; flex-direction: column; justify-content: flex-start; }
+.app-card > div { flex: 1; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; }
+.app-btn { margin-top: auto !important; align-self: center; }
 .app-card:hover { transform: translateY(-4px); }
 .app-icon   { font-size: 48px; margin-bottom: 8px; }
 .app-title  { font-size: 20px; font-weight: 900; color: #0052FF; text-transform: uppercase; letter-spacing: 1px; margin: 8px 0; }
