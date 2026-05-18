@@ -126,7 +126,7 @@ KNOWLEDGE = [
     },
     {
         "keys": ["hola","hello","hi","buenos","buenas","que tal","como estas"],
-        "resp": "👋 ¡Hola! Soy el asistente del **Cuadro de Mando Financiero de CD&P**.\n\n"
+        "resp": "🙂 ¡Hola! Soy **Arturo Aguilar**, tu Analista Financiero del **Cuadro de Mando CD&P**.\n\n"
                 "Puedo ayudarte con:\n"
                 "- 📊 Información sobre los 3 dashboards\n"
                 "- 📐 Conceptos financieros (IRR, NPV, ROI, CAPEX, EBITDA...)\n"
