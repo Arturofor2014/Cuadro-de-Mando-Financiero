@@ -264,14 +264,14 @@ with c3:
 st.markdown('<hr style="border:none;border-top:2px solid #e0e0e0;margin:40px 0 24px;">', unsafe_allow_html=True)
 st.markdown("""
 <div style="text-align:center;margin-bottom:20px;">
-  <span style="font-size:28px;font-weight:900;color:#0052FF;letter-spacing:1px;">🤖 Asistente Financiero</span><br>
+  <span style="font-size:28px;font-weight:900;color:#0052FF;letter-spacing:1px;">🙂 Arturo Aguilar — Tu Analista Financiero</span><br>
   <span style="font-size:14px;color:#888;">Pregúntame sobre los dashboards, métricas o conceptos financieros</span>
 </div>
 """, unsafe_allow_html=True)
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "👋 ¡Hola! Soy el asistente del Cuadro de Mando Financiero.\n\nPuedo responderte sobre los 3 dashboards, conceptos como IRR, NPV, CAPEX, EBITDA y datos reales del proyecto.\n\nEscribe **'ayuda'** para ver todo lo que sé."}
+        {"role": "assistant", "content": "🙂 ¡Hola! Soy **Arturo Aguilar**, tu Analista Financiero.\n\nPuedo responderte sobre los 3 dashboards, conceptos como IRR, NPV, CAPEX, EBITDA y datos reales del proyecto.\n\nEscribe **'ayuda'** para ver todo lo que sé."}
     ]
 
 for msg in st.session_state.messages:
